@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  /* Form */
 }
 
 * .block__form {
@@ -47,5 +48,11 @@
   text-align: center;
   background-color: #088108;
   border-radius: 5px;
+}
+
+* .block__form .block__form-button:hover {
+  background-color: #086108;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
+          box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
 }
 /*# sourceMappingURL=index.css.map */
