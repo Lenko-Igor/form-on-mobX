@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/form-on-mobX/static/css/main.0017be47.chunk.css",
+    "main.js": "/form-on-mobX/static/js/main.1c63f0db.chunk.js",
+    "main.js.map": "/form-on-mobX/static/js/main.1c63f0db.chunk.js.map",
+    "runtime-main.js": "/form-on-mobX/static/js/runtime-main.51f04011.js",
+    "runtime-main.js.map": "/form-on-mobX/static/js/runtime-main.51f04011.js.map",
+    "static/js/2.fd9c03b4.chunk.js": "/form-on-mobX/static/js/2.fd9c03b4.chunk.js",
+    "static/js/2.fd9c03b4.chunk.js.map": "/form-on-mobX/static/js/2.fd9c03b4.chunk.js.map",
+    "index.html": "/form-on-mobX/index.html",
+    "static/css/main.0017be47.chunk.css.map": "/form-on-mobX/static/css/main.0017be47.chunk.css.map",
+    "static/js/2.fd9c03b4.chunk.js.LICENSE.txt": "/form-on-mobX/static/js/2.fd9c03b4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51f04011.js",
+    "static/js/2.fd9c03b4.chunk.js",
+    "static/css/main.0017be47.chunk.css",
+    "static/js/main.1c63f0db.chunk.js"
+  ]
+}
