@@ -23,15 +23,15 @@ function Form({open}) {
       <button 
         onClick={(event) => {
           event.preventDefault()
-          const name = document.querySelector('#name')
-          const lastName = document.querySelector('#lastName')
-          open(name, lastName)
+          const nameInp = document.querySelector('#name')
+          const lastNameInp = document.querySelector('#lastName')
+          open(nameInp, lastNameInp)
          }
         }
         className="block__form-button" 
         type="submit" 
-        form="formData">
-          готово
+      >
+        готово
       </button>
     </section>
   )

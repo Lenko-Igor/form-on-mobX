@@ -14,29 +14,34 @@ const App = observer(() => {
       },
 
       openModal(name, lastName) {
-        const reg = new RegExp('([^\\s*]+)','g')
+        const regName = new RegExp('([^\\s*]+)','g')
+        const regLastName = new RegExp('([^\\s*]+)','g')
+        const validName = regName.test(name.value)
+        const validLastName = regLastName.test(lastName.value)
 
-        if (!reg.test(name.value)) {
+        if (validName && validLastName){
+          this.data.name = name.value
+          this.data.lastName = lastName.value
+          this.statusModal = true
+        }
+        
+        if (!validName) {
           name.nextElementSibling.classList.remove('novisible')
           name.value = ''
         } else {
           name.nextElementSibling.classList.add('novisible')
-          this.data.name = name.value
         }
         
-        if (!reg.test(lastName.value)) {
+        if (!validLastName) {
           lastName.nextElementSibling.classList.remove('novisible')
           lastName.value = ''
         } else {
           lastName.nextElementSibling.classList.add('novisible')
-          this.data.lastName = lastName.value
-        }
-        
-        if (reg.test(name.value) && reg.test(lastName.value)){
-          this.statusModal = true
         }
       },
       closeModal() {
+        this.data.name = ''
+        this.data.lastName = ''
         this.statusModal = false
       },
     }
